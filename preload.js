@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
       'convert': format
     },
     headers: {
-      'X-CMC_PRO_API_KEY': process.env.API_KEY
+      'X-CMC_PRO_API_KEY': process.env.API_KEY // Your API Key from coinmarketcap
     },
     json: true,
     gzip: true
