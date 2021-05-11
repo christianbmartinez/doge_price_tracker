@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DOGE Tracker</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script defer src="js/theme.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a class="nav-link nav-header">
+              <span class="link-text logo-text">MENU</span>
+              <svg 
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 2000 2000" 
+              class="svg-inline--fa">
+              <g fill="#CC9900">
+                  <path d="M1024 659H881.12v281.69h224.79v117.94H881.12v281.67H1031c38.51 0 316.16 4.35 315.73-327.72S1077.44 659 1024 659z"
+                  transform="translate(-1.92 -14.22)"
+                  class="svg-hover"/>
+                  <path d="M1000 0C447.71 0 0 447.71 0 1000s447.71 1000 1000 1000 1000-447.71 1000-1000S1552.29 0 1000 0zm39.29 1540.1H677.14v-481.46H549.48V940.7h127.65V459.21h310.82c73.53 0 560.56-15.27 560.56 549.48 0 574.09-509.21 531.41-509.21 531.41z"
+                  transform="translate(-1.92 -14.22)"
+                  class="svg-hover"/></g>
+                </svg>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a class="nav-link">
+              <svg 
+              aria-hidden="true" 
+              focusable="false" 
+              data-prefix="fas" 
+              data-icon="home" 
+              class="svg-inline--fa fa-home fa-w-18" 
+              role="img" 
+              xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 715 715">
+              <path fill="currentColor" 
+              d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+              class="svg-hover">
+              </path>
+              </svg>
+              <span class="link-text">HOME</span>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                aria-hidden="true" 
+                focusable="false"
+                enable-background="new 0 0 24 24" 
+                height="24px" 
+                viewBox="0 0 24 24" 
+                width="24px" >
+                <g>
+                    <rect 
+                    fill="none" 
+                    height="24" 
+                    width="24" 
+                    x="0"/>
+                </g><g><g>
+                        <path 
+                        d="M23,8c0,1.1-0.9,2-2,2c-0.18,0-0.35-0.02-0.51-0.07l-3.56,3.55C16.98,13.64,17,13.82,17,14c0,1.1-0.9,2-2,2s-2-0.9-2-2 c0-0.18,0.02-0.36,0.07-0.52l-2.55-2.55C10.36,10.98,10.18,11,10,11c-0.18,0-0.36-0.02-0.52-0.07l-4.55,4.56 C4.98,15.65,5,15.82,5,16c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2c0.18,0,0.35,0.02,0.51,0.07l4.56-4.55C8.02,9.36,8,9.18,8,9 c0-1.1,0.9-2,2-2s2,0.9,2,2c0,0.18-0.02,0.36-0.07,0.52l2.55,2.55C14.64,12.02,14.82,12,15,12c0.18,0,0.36,0.02,0.52,0.07 l3.55-3.56C19.02,8.35,19,8.18,19,8c0-1.1,0.9-2,2-2S23,6.9,23,8z"
+                        fill="currentColor"
+                        class="svg-hover"/>
+                    </g></g></svg>
+                <span class="link-text">GAINS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <svg 
+                aria-hidden="true" 
+                focusable="false" 
+                data-prefix="fas" 
+                data-icon="user" 
+                class="svg-inline--fa fa-user fa-w-14" 
+                role="img" 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 715 715">
+                <path fill="currentColor" 
+                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                class="svg-hover">
+                </path>
+                </svg>
+                <span class="link-text">ABOUT</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a onclick="contactPage()" class="nav-link">
+                <svg 
+                aria-hidden="true" 
+                focusable="false" 
+                data-prefix="fas" 
+                data-icon="envelope" 
+                class="svg-inline--fa fa-envelope fa-w-16" 
+                role="img" 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 715 715">
+                <path fill="currentColor" 
+                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                class="svg-hover">
+                </path>
+                </svg>
+                <span class="link-text">CONTACT</span>
+              </a>
+            </li>
+    
+          <li class="nav-item" id="themeButton">
+            <a class="nav-link">
+              <svg
+                class="theme-icon"
+                id="darkIcon"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="moon-stars"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 715 715"
+                class="svg-inline--fa fa-moon-stars fa-w-16 fa-7x">
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                    d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                    class="svg-hover"
+                  ></path>
+                  <path
+                    fill="currentColor"
+                    d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                    class="svg-hover"
+                  ></path>
+                </g>
+              </svg>
+              <svg
+              class="theme-icon"
+              id="lightIcon"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="sun"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 715 715"
+              class="svg-inline--fa fa-sun fa-w-16 fa-7x">
+              <g class="fa-group">
+                <path
+                  fill="currentColor"
+                  d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                  class="svg-hover">
+                </path>
+                <path
+                  fill="currentColor"
+                  d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                  class="svg-hover">
+                </path>
+              </g>
+            </svg>
+              <span id="themeText" class="link-text"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    
+      <main>               
+          <div class="title-container">
+            <h1 id="title"></h1>     
+          <p id="output">Fetching current price...</p> 
+          </div>
+      </main>
+
+</body>
+</html>
